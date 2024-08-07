@@ -10,12 +10,21 @@
 
 `python3 -m venv venv`
 
-### Шаг 3:
+### Шаг 3
+активируйте окружение
+
+`source venv/bin/activate`
+
+Для Windows используйте 
+
+`venv\Scripts\activate`
+
+### Шаг 4:
 установите зависимости
 
 `pip install -r requirements.txt`
 
-### Шаг 4:
+### Шаг 5:
 запустите файл main.py
 
 `python3 main.py`
